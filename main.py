@@ -14,7 +14,7 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 
 #Hard Level - Order of characters randomised:
 #e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
-------------------------------------------------------
+#------------------------------------------------------
 #Hard Level:
 
 password_list= [] # empty list for the characters below to be added to
@@ -35,5 +35,7 @@ password = ""
 for char in password_list:
   password += char
 
-print(password)
+print(f"Your password is: {password}")
+
+
 
